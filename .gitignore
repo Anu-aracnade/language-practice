@@ -1,0 +1,32 @@
+# Ignore compiled C/C++ files
+*.exe
+*.out
+*.o
+*.obj
+*.so
+*.dll
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build folders (common in projects)
+build/
+dist/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments (Python)
+env/
+venv/
