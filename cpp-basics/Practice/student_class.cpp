@@ -15,7 +15,7 @@ int main(){
     s1.name="Anubhab";
     s1.age=19;
     s1.grade='B';
-    s2.name="Rohak";
+    s2.name="Snigdha";
     s2.age=18;
     s2.grade='A';
     s1.displayfucn();
