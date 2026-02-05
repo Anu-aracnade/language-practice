@@ -23,9 +23,14 @@ int strStr(string haystack , string needle){
 }str1,str2;
 
 int main(){
-    string a = "Anubhab";
-    string b = "Anu";
+    while(1){
+    string a,b;
+    cout<<"Enter the Haystack string : ";
+    cin>>a;
+    cout<<"Enter the needle string : ";
+    cin>>b;
     int result = str1.strStr(a,b);
     cout<< "Index: "<<result<<endl;
+    }
     return 0;
 }
