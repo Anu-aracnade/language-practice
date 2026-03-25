@@ -26,7 +26,7 @@ int main()
         }
         else if (a == 'N')
         {
-            cout << "It's sad to hear that , but why man ? what the hell is wrong is with you ?  " << endl;
+            cout << "It's sad to hear that , but why man ? what the fuck is wrong is with you ?  " << endl;
         }
         else
         {

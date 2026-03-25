@@ -26,7 +26,7 @@ class bankAccount{
 }acc;
 
 int main(){
-    acc.accountNumber=112987987;
+    acc.accountNumber=112987987; 
     acc.accountHolderName="Anubhab";
     acc.balance=50000;
     acc.display();

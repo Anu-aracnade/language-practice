@@ -8,7 +8,7 @@ int main(){
     vector<int> vec;
     cout<<"Enter "<<n<<"elements for the vector :"<<endl;
     for(int i=0;i<n;i++){
-        int t;
+        int t;// here t will get initialize again and again , for data entry in vector.
         cin>>t;
         vec.push_back(t);
     }
