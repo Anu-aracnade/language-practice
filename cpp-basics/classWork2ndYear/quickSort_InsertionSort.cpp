@@ -2,7 +2,7 @@
 #include <vector>
 #include <cmath>
 
-// Helper function to swap two elements and increment counter
+
 void countSwap(int& a, int& b, long long& swapCount) {
     int temp = a;
     a = b;
