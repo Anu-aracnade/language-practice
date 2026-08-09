@@ -13,3 +13,21 @@ public:
         return sum;
     }
 };
+
+int main() {
+    int n;
+    if (!(cin >> n)) {
+        return 0;
+    }
+
+    vector<int> nums(n);
+    for (int i = 0; i < n; ++i) {
+        if (!(cin >> nums[i])) {
+            return 0;
+        }
+    }
+
+    Solution solution;
+    cout << solution.arrayPairSum(nums) << '\n';
+    return 0;
+}
