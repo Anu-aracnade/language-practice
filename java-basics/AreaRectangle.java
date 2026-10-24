@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class areaRectangle{
+public class AreaRectangle {
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Do you want to find the area of a rectangle (y/n): ");
